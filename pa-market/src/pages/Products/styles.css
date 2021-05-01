@@ -1,4 +1,27 @@
 .products-container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.products-content {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.products-list {
+  width: 70%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.products-resume {
+  width: 20%;
 }
