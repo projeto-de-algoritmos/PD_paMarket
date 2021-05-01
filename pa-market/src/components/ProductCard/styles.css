@@ -1,0 +1,22 @@
+.product-container {
+  width: 30rem;
+  height: 20rem;
+  background-color: #FFF;
+  margin: 3rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #B999D2;
+  /* box-shadow: 0 0 100px rgba(0, 0, 0, 0.1); */
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+
+.product-image-container {
+  width: 50%;
+}
+
+.product-info {
+  width: 50%;
+}
