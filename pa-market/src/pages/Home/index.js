@@ -12,6 +12,12 @@ const Home = () => {
         <img className="home-image" src={LogoShop} alt="LogoShop" />
 
         <section className="home-instructions">
+          <p className="home-description">
+            Não sabe o que comprar com o dinheiro que você tem disponível? Nós
+            fazemos isso para você! Basta nos informa quanto que você pretende
+            gastar com suas compras!
+          </p>
+
           <Link className="home-button" to="/products">
             <h1 className="home-button-title">Ver produtos</h1>
           </Link>

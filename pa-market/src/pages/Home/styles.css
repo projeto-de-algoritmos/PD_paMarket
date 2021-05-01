@@ -20,14 +20,24 @@
   width: 60rem;
 }
 
+.home-instructions {
+  width: 40rem;
+}
+
+.home-description {
+  font-size: 2rem;
+  color: #39393A;
+  margin-bottom: 3rem;
+}
+
 .home-button {
   width: 40rem;
   height: 5rem;
-  margin-top: 30px;
+  /* margin-top: 3rem; */
   border: 0;
   cursor: pointer;
   background: #9475AC;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   color: #ffffff;
   font-weight: 800;
   text-decoration: none;
