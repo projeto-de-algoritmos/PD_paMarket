@@ -1,4 +1,4 @@
-# MuseumSort
+# paMarket
 
 **Número da dupla**: 4<br>
 **Conteúdo da Disciplina**: Programação dinâmica<br>
@@ -18,7 +18,7 @@ Nesse módulo, criamos um app de mercado. Nesse app, o usuário tem alguns produ
 ## Screenshots
 ![home](assets/home.png)
 ![products](assets/products.png)
-![escolherFiltro](assets/MergeSort.png)
+![escolherFiltro](assets/mergeSort.png)
 ![knapsack](assets/knapsack.png)
 
 
