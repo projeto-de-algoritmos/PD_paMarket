@@ -26,7 +26,7 @@ export const knapsack = (items, capacity) => {
     var lastItem = items[row];
 
     // Capacidade restante para o subproblema resolver
-    var remaining = cap - lastItem.space;
+    var remaining = cap - lastItem.price;
 
     // Consulta da última solução para esta capacidade, que está na célula
     // da linha anterior com a mesma coluna
@@ -51,7 +51,7 @@ export const knapsack = (items, capacity) => {
     // (novo item) adicionado
     var lastValue = lastSolution.maxValue;
     var lastSubValue = lastSubSolution.maxValue;
-    var newValue = lastSubValue + lastItem.value;
+    var newValue = lastSubValue + lastItem.price;
 
     if (newValue >= lastValue) {
       // Faz a cópia do subconjunto da última solução do subproblema

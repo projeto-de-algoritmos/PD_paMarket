@@ -4,39 +4,40 @@ export const mergeSort = (array, typeParam) => {
     var indexLeft = 0;
     var indexRight = 0;
 
-    if (typeParam === 'yearsOld') {
+    if (typeParam === 'price') {
       while (indexLeft < left.length && indexRight < right.length) {
-        if (left[indexLeft].yearsOld < right[indexRight].yearsOld) {
+        if (left[indexLeft].price < right[indexRight].price) {
           result.push(left[indexLeft++]);
         } else {
           result.push(right[indexRight++]);
         }
       }
-    } else if (typeParam === 'value') {
-      while (indexLeft < left.length && indexRight < right.length) {
-        if (left[indexLeft].value < right[indexRight].value) {
-          result.push(left[indexLeft++]);
-        } else {
-          result.push(right[indexRight++]);
-        }
-      }
-    } else if (typeParam === 'space') {
-      while (indexLeft < left.length && indexRight < right.length) {
-        if (left[indexLeft].space < right[indexRight].space) {
-          result.push(left[indexLeft++]);
-        } else {
-          result.push(right[indexRight++]);
-        }
-      }
-    } else if (typeParam === 'popularity') {
-      while (indexLeft < left.length && indexRight < right.length) {
-        if (left[indexLeft].popularity < right[indexRight].popularity) {
-          result.push(left[indexLeft++]);
-        } else {
-          result.push(right[indexRight++]);
-        }
-      }
-    }
+    } 
+    // else if (typeParam === 'value') {
+    //   while (indexLeft < left.length && indexRight < right.length) {
+    //     if (left[indexLeft].value < right[indexRight].value) {
+    //       result.push(left[indexLeft++]);
+    //     } else {
+    //       result.push(right[indexRight++]);
+    //     }
+    //   }
+    // } else if (typeParam === 'space') {
+    //   while (indexLeft < left.length && indexRight < right.length) {
+    //     if (left[indexLeft].space < right[indexRight].space) {
+    //       result.push(left[indexLeft++]);
+    //     } else {
+    //       result.push(right[indexRight++]);
+    //     }
+    //   }
+    // } else if (typeParam === 'popularity') {
+    //   while (indexLeft < left.length && indexRight < right.length) {
+    //     if (left[indexLeft].popularity < right[indexRight].popularity) {
+    //       result.push(left[indexLeft++]);
+    //     } else {
+    //       result.push(right[indexRight++]);
+    //     }
+    //   }
+    // }
 
     while (indexLeft < left.length) {
       result.push(left[indexLeft++]);
