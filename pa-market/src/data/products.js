@@ -44,7 +44,7 @@ export const products = [
   },
   {
     id: 8,
-    name: 'Eggs',
+    name: 'Ovos',
     price: 8,
     image: '8.png'
   },
@@ -85,7 +85,7 @@ export const products = [
   },
   {
     id: 15,
-    name: 'Apple',
+    name: 'Maçã',
     price: 1,
     image: '15.png'
   },
