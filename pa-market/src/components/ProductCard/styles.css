@@ -1,6 +1,6 @@
 .product-container {
-  width: 30rem;
-  height: 20rem;
+  width: 34rem;
+  height: 23rem;
   background-color: #FFF;
   margin: 3rem;
   padding: 1.5rem;
@@ -14,9 +14,21 @@
 }
 
 .product-image-container {
-  width: 50%;
+  width: 60%;
+}
+
+.product-image {
+  width: 15rem;
 }
 
 .product-info {
-  width: 50%;
+  width: 40%;
+}
+
+.product-title {
+  color: #202020;
+}
+
+.product-price {
+  color: #39393A;
 }
